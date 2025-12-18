@@ -12,8 +12,12 @@ Color theme .css file generator for theme [Blowfish](https://github.com/nunocora
     npm install
     ```
 
+    ```bash
+    npm audit fix
+    ```
+
 3. Generate a color theme
 
     ``` bash
-     index.js generate 161032 FAFF81 FFC53A
+     node index.js generate 161032 FAFF81 FFC53A
     ```
